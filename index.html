@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DevOps Hub</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+<header class="navbar">
+<h1 class="logo">DevOps Hub</h1>
+<nav>
+<ul>
+<li><a href="#tools">Tools</a></li>
+<li><a href="#pipeline">Pipeline</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+
+<section class="hero">
+<h2>Automate. Deploy. Scale.</h2>
+<p>The complete DevOps lifecycle in one place</p>
+<button onclick="showMessage()">Explore</button>
+</section>
+
+
+<section id="tools" class="section">
+<h2>Popular DevOps Tools</h2>
+<div class="cards">
+<div class="card">Docker</div>
+<div class="card">Kubernetes</div>
+<div class="card">Jenkins</div>
+<div class="card">Terraform</div>
+<div class="card">Ansible</div>
+<div class="card">GitHub Actions</div>
+</div>
+</section>
+
+
+<section id="pipeline" class="section dark">
+<h2>CI/CD Pipeline</h2>
+<p>Code → Build → Test → Deploy → Monitor</p>
+<div class="pipeline">
+<span>💻 Code</span>
+<span>⚙ Build</span>
+<span>🧪 Test</span>
+<span>🚀 Deploy</span>
+<span>📊 Monitor</span>
+</div>
+</section>
+
+
+<section id="contact" class="section">
+<h2>Contact Us</h2>
+<input type="text" id="name" placeholder="Enter your name" />
+<button onclick="greetUser()">Submit</button>
+<p id="output"></p>
+</section>
+
+
+<footer>
+<p>© 2026 DevOps Hub</p>
+</footer>
+
+
+<script src="index.js"></script>
+</body>
+</html>
