@@ -18,3 +18,4 @@ return;
 output.textContent = `Hello ${name}, welcome to DevOps!`;
 output.style.color = "#22c55e";
 }
+
